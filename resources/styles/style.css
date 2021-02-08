@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+  }
+  
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+  
+h4 {
+
+}
+  
+h5 {
+
+}
+
+  
+p {
+
+}
+
+.flex-container{
+    display: flex;
+    background-color: #27272A;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.flex-container div{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+footer{
+    color: white;
+    background-color: #27272A;
+    text-align: center;
+}
