@@ -44,7 +44,8 @@ body {
 .grid_container .sidebar_nav {
     grid-area: sidebar_nav;
 	min-width: auto;
-    min-height: 400px;
+    min-height: 400px; 
+	/* max-height: 400px; */
     text-align: left;
     text-transform: uppercase;
     	
@@ -57,6 +58,16 @@ align-items: right;
 justify-content: right;
 } */
 
+/* .sidebar_nav {
+	ul {
+	  display: flex;
+	  width: 100%;
+	 li {
+		flex: 1 1 100%;
+	  }
+	}
+  } */
+
 
   /* Sidebar Menu: delete dots/bullets */
 .grid_container .sidebar_nav li {
@@ -68,6 +79,7 @@ justify-content: right;
 /* Sidebar Menu: hover color */
 .grid_container .sidebar_nav li:hover {
     color: #FBE201;
+	
   }
 
   /* Sidebar Menu: Blockquots */
